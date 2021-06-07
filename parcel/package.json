@@ -10,9 +10,8 @@
     "prod": "rm -rf .parcel-cache && rm -rf dist && NODE_ENV=production npm run prod:app"
   },
   "alias": {
-    "@modules/lazyload": "./src/scripts/modules/lazyload/index.js",
-    "@utilities/selectors": "./src/scripts/utilities/selectors/index.js",
-    "@utilities/helpers": "./src/scripts/utilities/helpers/index.js"
+    "@modules/*": "./src/scripts/modules/$1",
+    "@utilities/*": "./src/scripts/utilities/$1"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
