@@ -24,6 +24,8 @@ Those bundlers tested against the requirements below:
 - Purging TailwindCSS classes on production build
 - Minify Javascript on production build
 
+Read about the rationale: https://azzamsa.com/n/bundler-2021
+
 ## Quickstart
 
 ``` bash
