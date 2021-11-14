@@ -40,9 +40,6 @@ $ npm run dev # serve
 $ npm run prod # build
 ```
 
-## Contributing
-
-Please send patches and questions to my [public-inbox](https://lists.sr.ht/~azzamsa/public-inbox) mailing list.
 
 ## Credits
 
